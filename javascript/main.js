@@ -24,5 +24,8 @@ document.querySelectorAll('.btnDetail').forEach(item => {
         let pesan = `https://api.whatsapp.com/send?phone=${nohp}&text=Halo Bang, saya mau pesan produk ini ${gambar}`;
 
         document.querySelector('.btnBeli').href = pesan;
+        
+
+        
     });
 });
